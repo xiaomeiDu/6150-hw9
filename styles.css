@@ -1,0 +1,55 @@
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-button {
+  background-color: pink;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.submit-button:hover {
+  background-color: #ff66b3;
+}
+
+.error {
+  color: red;
+  position: fixed;
+  top: 71%;
+  left: 48%;
+  font-size: large;
+}
+
+.hidden {
+  display: none;
+}
+
+#successMessage {
+  color: green;
+  position: fixed;
+  top: 71%;
+  left: 48%;
+  font-size: large;
+}
